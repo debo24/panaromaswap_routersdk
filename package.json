@@ -1,0 +1,44 @@
+{
+  "name": "panaromaswap_routersdk",
+  "version": "1.0.0",
+  "description": "sdk for routing swaps Panaromaswap v2 and v3.",
+  "publishConfig": {
+    "@debo24": "https://npm.pkg.github.com"
+  },
+  "main": "dist/index",
+  "typings": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsdx test",
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "prepublishOnly": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debo24/panaromaswap_routersdk.git"
+  },
+  "keywords": [
+    "panaromaswap",
+    "ethereum"
+  ],
+  "dependencies": {
+    "@ethersproject/abi": "^5.5.0",
+    "panaromaswap_sdkcore": "^1.0.0",
+    "panaromaswap_swaproutercontracts": "1.0.0",
+    "panaromaswap_v2sdk": "^1.0.0",
+    "panaromaswap_v3sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "prettier": "^2.4.1",
+    "tsdx": "^0.14.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
