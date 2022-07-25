@@ -10,8 +10,8 @@ import {
   TickMath,
   nearestUsableTick,
   encodeSqrtRatioX96,
-} from '@panaromaswap/v3-sdk'
-import { Pair, Route as V2RouteSDK } from '@panaromaswap/v2-sdk'
+} from 'panaromaswap_v3sdk'
+import { Pair, Route as V2RouteSDK } from 'panaromaswap_v2sdk'
 
 describe('Trade', () => {
   const ETHER = Ether.onChain(1)
