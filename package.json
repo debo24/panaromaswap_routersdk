@@ -1,6 +1,6 @@
 {
   "name": "panaromaswap_routersdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "sdk for routing swaps Panaromaswap v2 and v3.",
   "publishConfig": {
     "@debo24": "https://npm.pkg.github.com"
@@ -28,8 +28,8 @@
     "@ethersproject/abi": "^5.5.0",
     "panaromaswap_sdkcore": "^1.0.0",
     "panaromaswap_swaproutercontracts": "1.0.0",
-    "panaromaswap_v2sdk": "^1.0.2",
-    "panaromaswap_v3sdk": "^1.0.3"
+    "panaromaswap_v2sdk": "^1.0.3",
+    "panaromaswap_v3sdk": "^1.0.4"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
