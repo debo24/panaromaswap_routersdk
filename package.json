@@ -28,7 +28,7 @@
     "@ethersproject/abi": "^5.5.0",
     "panaromaswap_sdkcore": "^1.0.1",
     "panaromaswap_swaproutercontracts": "1.0.2",
-    "panaromaswap_v2sdk": "^1.0.5",
+    "panaromaswap_v2sdk": "^1.0.6",
     "panaromaswap_v3sdk": "^1.0.6"
   },
   "devDependencies": {
